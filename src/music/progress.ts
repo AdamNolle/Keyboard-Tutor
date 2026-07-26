@@ -131,6 +131,6 @@ export function parseImport(text: string): SavedState {
   try {
     return decodeState(JSON.parse(text));
   } catch {
-    throw new Error("This is not a valid Piano Tutor progress file.");
+    throw new Error("This is not a valid Keyboard Tutor progress file.");
   }
 }

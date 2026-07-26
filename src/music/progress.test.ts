@@ -70,7 +70,7 @@ describe("progress persistence", () => {
     { ...state(), settings: { ...state().settings, volume: 2 } },
   ])("rejects malformed or unsafe imported state", (value) => {
     expect(() => parseImport(JSON.stringify(value))).toThrow(
-      "This is not a valid Piano Tutor progress file.",
+      "This is not a valid Keyboard Tutor progress file.",
     );
   });
 

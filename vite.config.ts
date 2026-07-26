@@ -11,8 +11,8 @@ export default defineConfig({
       registerType: "prompt",
       includeAssets: ["icons/icon.svg"],
       manifest: {
-        name: "Piano Tutor",
-        short_name: "Piano Tutor",
+        name: "Keyboard Tutor",
+        short_name: "Keyboard Tutor",
         description:
           "Interactive piano keys, chords, ear training, and metronome",
         theme_color: "#111111",

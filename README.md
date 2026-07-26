@@ -1,17 +1,17 @@
 <div align="center">
 
-# Piano Tutor
+# Keyboard Tutor
 
 **Play notes, build chords, train your ear, and keep time — entirely in the browser.**
 
-[**Open Piano Tutor →**](https://adamnolle.github.io/Keyboard-Tutor/)
+[**Open Keyboard Tutor →**](https://adamnolle.github.io/Keyboard-Tutor/)
 
 [![CI](https://github.com/AdamNolle/Keyboard-Tutor/actions/workflows/ci.yml/badge.svg)](https://github.com/AdamNolle/Keyboard-Tutor/actions/workflows/ci.yml)
 [![GitHub Pages](https://github.com/AdamNolle/Keyboard-Tutor/actions/workflows/deploy.yml/badge.svg)](https://github.com/AdamNolle/Keyboard-Tutor/actions/workflows/deploy.yml)
 
 </div>
 
-![Piano Tutor showing the playable keyboard, note spelling controls, and focused piano view](docs/piano-tutor.png)
+![Keyboard Tutor showing the playable keyboard, note spelling controls, and focused keyboard view](docs/keyboard-tutor.png)
 
 ## Four focused tools
 
@@ -54,7 +54,7 @@ npm run verify:build
 
 ## Offline, private, and accessible
 
-Piano Tutor is an installable PWA. After the first successful visit, its core interface works offline. Trainer scores and sound preferences stay in `localStorage`; there is no telemetry or third-party runtime request.
+Keyboard Tutor is an installable PWA. After the first successful visit, its core interface works offline. Trainer scores and sound preferences stay in `localStorage`; there is no telemetry or third-party runtime request.
 
 The interface includes keyboard navigation, visible focus, reduced-motion and forced-colors support, concise live feedback, textual notation equivalents, and touch-friendly controls. Automated checks are not a WCAG conformance claim; screen-reader, zoom, touch, mobile audio, and physical MIDI testing remain part of release review.
 
@@ -64,6 +64,4 @@ Pushes to `main` are validated by [CI](.github/workflows/ci.yml) and deployed to
 
 ## Credits and licensing
 
-Application source is copyright © 2026 Adam Nolle. No license is granted for reuse.
-
-Manrope, Space Grotesk, and Bravura are distributed under the SIL Open Font License 1.1. Copyright notices, sources, and complete font licenses are listed in [`public/fonts/NOTICE.md`](public/fonts/NOTICE.md).
+Manrope, Space Grotesk, and Bravura are distributed under the SIL Open Font License 1.1. Font credits, sources, and complete licenses are listed in [`public/fonts/NOTICE.md`](public/fonts/NOTICE.md).

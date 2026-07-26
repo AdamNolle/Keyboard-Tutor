@@ -127,7 +127,7 @@ export function App() {
         Skip to content
       </a>
       <header class="site-header">
-        <h1 class="sr-only">Piano Tutor</h1>
+        <h1 class="sr-only">Keyboard Tutor</h1>
         <nav aria-label="Sections">
           <ul>
             {SECTIONS.map((item) => (

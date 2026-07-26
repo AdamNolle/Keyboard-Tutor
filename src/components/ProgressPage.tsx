@@ -81,7 +81,7 @@ export function ProgressPage({
             type="file"
             accept="application/json"
             tabIndex={-1}
-            aria-label="Choose a Piano Tutor progress JSON file"
+            aria-label="Choose a Keyboard Tutor progress JSON file"
             onChange={(e) => void importFile(e.currentTarget.files?.[0])}
           />
         </div>

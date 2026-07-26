@@ -1,6 +1,6 @@
 # Font notices
 
-Piano Tutor self-hosts the following fonts. Each is distributed under the SIL Open Font License 1.1.
+Keyboard Tutor self-hosts the following fonts. Each is distributed under the SIL Open Font License 1.1.
 
 | Font          | Copyright and source                                                                                                     | Bundled file                             | License                                                 |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------- | ------------------------------------------------------- |
