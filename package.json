@@ -1,0 +1,44 @@
+{
+  "name": "keyboard-tutor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive piano keys, chords, ear training, and metronome",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "build:root": "tsc -b && vite build --base=/ --outDir dist-root",
+    "verify:build": "node scripts/verify-build.mjs dist /Keyboard-Tutor/ && node scripts/verify-build.mjs dist-root /",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --pretty false",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "preact": "^10.27.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@preact/preset-vite": "^2.10.2",
+    "@types/node": "^24.10.1",
+    "eslint": "^10.8.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.5.0",
+    "prettier": "^3.7.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.1",
+    "vite": "^7.2.4",
+    "vite-plugin-pwa": "1.3.0",
+    "vitest": "^4.0.14"
+  },
+  "overrides": {
+    "brace-expansion": "5.0.8",
+    "ejs": "6.0.1",
+    "workbox-build": "7.4.1"
+  }
+}

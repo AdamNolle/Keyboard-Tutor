@@ -1,0 +1,6 @@
+dist
+dist-root
+coverage
+node_modules
+.pi-subagents
+package-lock.json
